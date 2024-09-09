@@ -1,18 +1,18 @@
-FireGuardLLM: Smart Firewall Log Analysis Using Local AI
+FireGuard: Smart Firewall Log Analysis Using Local AI
 
-Hey there! Let me tell you about FireGuardLLM, this cool project I've been working on. It's all about using AI to make sense of those endless firewall logs and spot potential attacks before they become a real headache.
+Hey there! Let me tell you about FireGuard, this cool project I've been working on. It's all about using AI to make sense of those endless firewall logs and spot potential attacks before they become a real headache.
 
 So, what's the big deal? Well, we're using these fancy AI models called Large Language Models (LLMs) right on your own machine. No need to send your sensitive data to the cloud – privacy first, right?
 
-Here's what FireGuardLLM can do:
+Here's what FireGuard can do:
 - Crunch through your old firewall logs to find patterns
 - Use AI to predict if something fishy is going on
-- Give you a heads-up about threats in real-time
+- Give you a heads-up about threats in real-time - *feature coming soon.
 - Play nice with your existing firewall setup
 
 The cool part is how it combines old-school data crunching with cutting-edge AI. It's like teaching an old dog new tricks, but for your firewall!
 
-I built this because I was tired of staring at endless logs, trying to spot the needle in the haystack. With FireGuardLLM, it's like having a super-smart assistant who never sleeps.
+I built this because I was tired of staring at endless logs, trying to spot the needle in the haystack. With FireGuard, it's like having a super-smart assistant who never sleeps.
 
 If you're into Python and curious about how AI can beef up cybersecurity, this project is right up your alley. It's not perfect – more of a "let's see what's possible" kind of thing – but it's a start!
 
