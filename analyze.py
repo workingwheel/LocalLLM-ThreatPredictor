@@ -31,7 +31,7 @@ def prepare_data_for_llm(df):
     return X, y
 
 # Function to query Ollama
-def query_ollama(prompt, model="gemma2:27b"):
+def query_ollama(prompt, model="your LLM goes here"):
     url = "http://localhost:11434"
     data = {
         "model": model,
