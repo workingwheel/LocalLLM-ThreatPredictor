@@ -32,7 +32,7 @@ def prepare_data_for_llm(df):
 
 # Function to query Ollama
 def query_ollama(prompt, model="llama2"):
-    url = "http://localhost:11434/api/generate"
+    url = "http://localhost:11434"
     data = {
         "model": model,
         "prompt": prompt,
