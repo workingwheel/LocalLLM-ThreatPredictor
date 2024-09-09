@@ -18,14 +18,22 @@ If you're into Python and curious about how AI can beef up cybersecurity, this p
 
 Want to give it a spin? Here's what you need to do:
 
+Windows Steps:
 1. Get Ollama up and running on your machine.
-2. Install a few Python packages (the usual suspects: pandas, numpy, scikit-learn, and requests).
-3. Grab your firewall logs and save them as 'firewall_logs.csv'. Make sure it has all the important stuff like timestamps, IPs, ports, and whether it was an attack or not.
-4. Put that CSV file in the same folder as the script.
-5. Run it and watch the magic happen!
+   https://ollama.com/library
+    a. after installing, make sure you are running ollama as a service. you can do so by running ollama serve on your terminal.
+    b. run cmd and run the following command: set OLLAMA_HOST=0.0.0.0 #This step is optional ofc. This is only if you want to scale functionality. It basically tells Ollama service to listen on all network interfaces of the machine, making it accessible from other computers on the network, not just locally.
+2. Install required Python packages (pandas, numpy, scikit-learn, and requests). #see required.txt
 
-Just a heads up – it might be a bit slow if you throw a ton of data at it. And yeah, the results are only as good as the AI model you're using. Play around with different ways of asking the AI about the logs; you might stumble onto something that works even better!
+Linux Steps: On the way.
 
-*Tested with Asus, and Fortinet. Good luck.
+
+A. Grab your firewall logs and save them as 'firewall_logs.csv'. Make sure it has all the important stuff like timestamps, IPs, ports, and whether it was an attack or not. This is different with manufacturers. 
+B. Put that CSV file in the same folder as the script. 
+C. Run it and watch the magic happen! Not actual magic. It is your machine hammeriung that GPU of yours doing calculations. 1 + 1 = 2 and so on. Basic stuff. Just kidding.
+
+Just a heads up – it might be a bit slow if you throw a ton of data at it. And yeah, the results are only as good as the AI model + the GPU you're using. It has been tested with gemma2:27b and nidia 4090. Play around with different ways of asking the AI about the logs; you might stumble onto something that works even better!
+
+*Tested with Asus, and Fortinet firewall applicances. Good luck.
 
 Happy hunting, and may your networks stay secure!
