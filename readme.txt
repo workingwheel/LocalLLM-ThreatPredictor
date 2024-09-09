@@ -21,7 +21,7 @@ Want to give it a spin? Here's what you need to do:
 Windows Steps:
 1. Get Ollama up and running on your machine.
    https://ollama.com/library
-    a. after installing, make sure you are running ollama as a service. you can do so by running ollama serve on your terminal.
+    a. After installing, make sure you are running ollama as a service. you can do so by running "ollama serve" on your terminal.
     b. Open CMD and run the following command: set OLLAMA_HOST=0.0.0.0 #This step is optional ofc. This is only if you want to scale functionality. It basically tells Ollama service to listen on all network interfaces of the machine, making it accessible from other computers on the network, not just locally.
 2. Install required Python packages (pandas, numpy, scikit-learn, and requests). #see required.txt
 
