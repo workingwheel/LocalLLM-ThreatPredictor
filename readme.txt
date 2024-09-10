@@ -30,7 +30,7 @@ Linux Steps: On the way.
 
 A. Grab your firewall logs and save them as 'firewall_logs.csv'. Make sure it has all the important stuff like timestamps, IPs, ports, and whether it was an attack or not. This is different with manufacturers. 
 B. Put that CSV file in the same folder as the script. 
-C. Run it and watch the magic happen! Not actual magic. It is your machine hammeriung that GPU of yours doing calculations. 1 + 1 = 2 and so on. Basic stuff. Just kidding.
+C. Run it and watch the magic happen! Not actual magic. It is your machine hammering that GPU of yours doing calculations. 1 + 1 = 2 and so on. Basic stuff. Just kidding.
 
 Just a heads up – it might be a bit slow if you throw a ton of data at it. And yeah, the results are only as good as the AI model + the GPU you're using. It has been tested with gemma2:27b and nidia 4090. Play around with different ways of asking the AI about the logs; you might stumble onto something that works even better!
 
